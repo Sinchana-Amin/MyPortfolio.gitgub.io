@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+   /*  background: url('https://lkp.dispendik.surabaya.go.id/assets/loading.gif') 50% 50% no-repeat rgb(17, 17, 17); */
+}
+.workcard{
+    border-top: 2px solid #5a5757;
+    border-bottom: 2px solid #5a5757;
+    background-color: #040a178c;
+    height: 25rem;
+    display: flex;
+    margin-bottom: 30px;
+    
+    
+}
+.worksection{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.worksection img{
+    height: 14rem;
+    width: 80%;
+    
+}
+
+.project-tech{
+    border: 2px solid #626d86;
+    padding: 5px;
+    position: relative;
+    bottom: -20px;
+    border-radius: 10px;
+    background-color: #000f31;
+    display: inline-block;
+}
+.project-button{
+    border: 2px solid #626d86;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    position: relative;
+    top: 35px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: #000f31;
+}
+.project-preview{
+    text-align: center;
+}
+.project-about{
+    padding: 10px;
+}
+.project-about h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+.testimonials{
+    margin-left: 23%;
+}
+#more-proj{
+    width: 100%;
+    text-align: center;
+}
+.more-project-button{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #626d86;
+    background-color: #000f31;
+}
+
+@media (min-width: 200px) and (max-width: 600px){
+    .workcard{
+        flex-direction: column;
+        width: 100%;
+        height: 45rem;
+        padding-bottom: 40px;
+        
+        
+    }
+    .project-preview{
+        height: 40%;
+    }
+    .project-about{
+        height: 60%;
+    }
+    .worksection{
+        width: 100%;
+    }
+    .worksection img{
+        width: 90%;
+        
+    }
+
+    /* .testimonials{
+        margin-left: 10%;
+    }
+    .testimonials img{
+        width: 80%;
+    } */
+
+}

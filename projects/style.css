@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
+body{
+    background: url("../images/check.png") repeat center center/cover;
+}
+
+/*  body::before{
+    content: "";
+    background: url("/projects/snow.jpg") repeat center center/cover;
+    position: absolute;
+    height: 100rem;
+    width: 100%;
+    z-index: -1;
+    opacity: .85;
+    top: 0px;
+    left: 0px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+} */  
+/* header */
+.myinfo{
+    margin: 10px 4%;
+    font-family: 'Potta One', cursive;
+}
+.myinfo h1{
+    color: #fff;
+}
+
+#project-button{
+    color: #cec9cd;
+    font-weight: bold;
+}
+
+/* Section of info */
+#mainsection{
+    background-color: #23395d;/*#706e66 #82641278,#23395d */
+    border: 2px solid;
+    margin: 10px 4%;
+    border: 2px;
+    border-color: #326e94;
+    border-style: solid;
+    border-radius: 12px;
+    /* border-radius: 8rem; */
+    color: white;
+}
+/* first navbar */
+/* #navbarSupportedContent .ms-5 {
+    margin-left: 16rem!important;
+} */
+.navbar{
+    border-radius: 5px;
+}
+.navbar-nav{
+    text-align: center;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+/* second navbar */
+.projectheadings{
+    width: 100%;
+}
+#project-types{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #407192c7;
+
+}
+#project-types li{
+    list-style: none;
+    padding: 5px;
+}
+#project-types li a{
+    text-decoration: none;
+    margin: 5px 5px;
+    font-size: 1.5rem;
+    color: white;
+    padding: 5px 5px;
+
+
+}
+.viewbutton{
+    background-color: #927a2b66;
+    border-radius: 9px;
+    padding: 6px 15px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+#project-types li a:hover{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:#353535;
+}
+
+.projects{
+    text-align: center;
+}
+.worksection{
+    background-color:#e4e2e7;
+    width: 24rem;
+    display: inline-block;
+    border-radius: 5px;
+    color: var(--text-color);
+    border: 1px solid rgb(0, 0, 0, 0.04);
+    box-shadow: 0px 0px 0px rgb(0, 0, 0, 0);
+    transition: 0.4s ease-in-out;
+    transform: scale(1);
+    padding: 0px;
+    margin: 2vh 10px;
+    text-align: center;
+}
+.container h1{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #4d575f;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color:#706e66 ;
+}
+.headingofwork{
+    color: #1c2e4a;
+    font-weight: bold;
+    text-shadow: 2px black;
+
+}
+.worksection img{
+    height: 14rem;
+    width: 100%;
+}
+.navbar-brand{
+    display: none;
+}
+
+.row-containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viewcontent{
+    display: none;
+}

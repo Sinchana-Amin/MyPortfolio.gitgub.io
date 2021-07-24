@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+   /*  background: url('https://lkp.dispendik.surabaya.go.id/assets/loading.gif') 50% 50% no-repeat rgb(17, 17, 17); */
+}
+.workcard{
+    border-top: 2px solid #5a5757;
+    border-bottom: 2px solid #5a5757;
+    background-color: #040a178c;
+    height: 25rem;
+    display: flex;
+    margin-bottom: 30px;
+    
+    
+}
+.worksection{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.worksection img{
+    height: 15rem;
+    width: 70%;
+    
+}
+.project-button{
+    border: 2px solid #626d86;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    position: relative;
+    top: 45px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: #000f31;
+}
+.project-preview{
+    text-align: center;
+}
+.project-about{
+    padding: 10px;
+}
+.project-about h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* style.css */
+body{
+    background-color: #0c0f16
+}
+body::before{
+    content: "";
+   background: url(../images/bak1n.jpg) repeat center center/cover; 
+    position: absolute;
+    height: 155%;
+    width: 100%;
+    z-index: -1;
+    opacity: .85;
+    top: 0px;
+    left: 0px;
+    filter: blur(3px);
+    -webkit-filter: blur(13px);
+}
+
+header{
+    position: absolute;
+    top: 0;
+}
+#navbar_top{
+    z-index: 1;
+}
+#navbar_top .navbar-brand:hover{
+    
+    font-size:1.4rem ;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 2px 12px;
+    
+}
+.navbar-fixed-top {
+   width: 100%;
+    position: fixed;
+}
+.bg-dark {
+    background-color: #1a1a1a45!important;
+}
+
+
+@media (min-width: 200px) and (max-width: 600px){
+    .workcard{
+        flex-direction: column;
+        width: 100%;
+        height: 45rem;
+        padding-bottom: 40px;
+        
+        
+    }
+    .project-preview{
+        height: 40%;
+    }
+    .project-about{
+        height: 60%;
+    }
+    .worksection{
+        width: 100%;
+    }
+    .worksection img{
+        width: 90%;
+        
+    }
+}

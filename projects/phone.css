@@ -1,0 +1,22 @@
+.worksection{
+    width: 100%;
+    margin: 2vh 0;
+}
+.navbar-brand{
+    display: block;
+}
+.myinfo{
+    display: none;
+}
+.row-containers{
+    flex-direction: column;
+}
+#mainsection{
+    margin: 0 0;
+}
+#project-types{
+    flex-direction: column;
+}
+#project-types li a{
+    font-size: 1rem;
+}
